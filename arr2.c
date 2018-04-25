@@ -2,7 +2,7 @@
 #include<conio.h>
 int main()
 {
-	int arr[100],i,b[3]={2,5,8};
+	int arr[100],i,;
 	printf("Enter a[0]-a[3]:\n");
 	scanf("%d",&arr[0]);
 	scanf("%d",&arr[1]);

@@ -1,3 +1,4 @@
+//This program's exiting on it's own after taking the 2nd input
 #include<stdio.h>
 #include<conio.h>
 int main()

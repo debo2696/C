@@ -1,15 +1,16 @@
 #include<stdio.h>
 void main()
 {
-  int i=0;
+  int i=0,j=0;
   ZERO:
   YO:
   {
-    printf("In Yo");
+  	++j;
+    ++i;
   }
   for(i=0;i<10;i++)
   {
-    printf("%d",i);
+    printf("%d %d",i,j);
     goto ZERO;
   }
 }
